@@ -1,0 +1,50 @@
+// Layout
+
+.hglayout {
+  display: flex;
+  flex-direction: column;
+}
+
+.hglayout__header, .hglayout__footer {
+  flex: 0 0 100%;
+}
+
+.hglayout__body {
+  display: flex;  
+}
+
+.hglayout__sidebar {
+
+}
+
+.hglayout__sidebar--first {
+  order: 1;
+}
+
+.hglayout__sidebar--second {
+  order: 3;
+}
+
+.hglayout__content {
+  order: 2;
+}
+
+@media all and ( min-width: 720px ) {
+  .hg__body {
+    flex-direction: row;
+  }
+
+  .hg__sidebar {
+    flex: 0 0 180px;
+  }
+
+  .hg__content {
+    flex: 1;
+  }
+}
+
+@media all and ( min-width: 960px ) {
+  .hg__sidebar {
+    flex: 0 0 240px;
+  }
+}
