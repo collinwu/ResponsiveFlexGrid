@@ -1,0 +1,19 @@
+{
+  "name": "responsive_flex_grid",
+  "version": "0.1.0",
+  "description": "Responsive grid system leveraging flex, Sass, and BEM",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinwu/ResponsiveFlexGrid.git"
+  },
+  "author": "collinwu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collinwu/ResponsiveFlexGrid/issues"
+  },
+  "homepage": "https://github.com/collinwu/ResponsiveFlexGrid#readme"
+}
